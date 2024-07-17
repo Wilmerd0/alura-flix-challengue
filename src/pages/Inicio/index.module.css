@@ -1,0 +1,48 @@
+.inicioContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: var(--dark-grey);
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.categoria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding-left: 70px;
+    
+
+
+}
+
+.nombre {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 270px;
+    /* Ajusta el ancho según tus necesidades */
+    height: 60px;
+    /* Ajusta la altura según tus necesidades */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37.5px;
+    color: var(--white);
+}
+
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+}
